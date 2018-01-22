@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>News Page</title>
+
+    <style>
+
+    /*Entire page styled*/
+    body{
+      background-color: silver;
+      margin-top: 35px;
+      margin-left: 90px;
+      margin-right: 90px;
+      margin-bottom: 35px;
+    }
+    /*End of style*/
+
+    /*Styling for my top part of the page including the navbar*/
+    #g{
+      float: bottom;
+      margin-left: 750px;
+      margin-top: 3mm;
+    }
+
+    #radio{
+      font-size: 15px;
+      font-family: Arial,Helvetica,sans-serif;
+    }
+
+    ul{
+      list-style-type: none;
+      margin: 0;
+      padding: -5%;
+      overflow: hidden;
+      background-color:;
+      text-align: center;
+      font-family: 'Baloo Bhaijaan',cursive;
+      width: 1190px;
+      font-size: 25px;
+    }
+
+    .hea{
+      border: 6px solid grey;
+      width: 60%;
+      margin-top: 15mm;
+    }
+
+    #p1 {
+      background: #2b4f88;
+      color: #FFFFFF;
+      padding: 10px;
+      height: auto;
+      text-align: center;
+      font: 11px Tahoma, Verdana, Geneva, sans-serif;
+      margin: 0px;
+      padding: 5px 9.5px;
+      width: 70%;
+      margin-left: 4mm;
+    }
+
+    #head3{
+      color: #123F7B;
+      font-size: 20px;
+      margin-left: 4mm;
+    }
+
+    li{
+      float: left;
+      padding-left: 165px;
+    }
+
+    li a:hover{
+      background-color: none;
+      color: #300C1C ;
+    }
+    /*End of style*/
+
+    /*Style for images on the right side of the page*/
+    .right{
+        float: right;
+        text-indent: 10%;
+        padding-top: 40px;
+    }
+      /*End of this style*/
+
+      /*Style for the rest of the information on my page*/
+    #h2{
+    color: #123F7B;
+    margin: 0px;
+    line-height: normal;
+    margin-top: 5mm;
+    }
+
+    .head2 {
+      color:#2b4f88;
+      font: 18px BorisBlackBloxx, Futura, "Century Gothic", AppleGothic, sans-serif;
+      line-height: 30px;
+      color: #123F7B;
+      margin: 0px;
+      line-height: normal;
+      width: 80%;
+      margin-top: 2mm;
+    }
+
+    .head{
+      background-color: #2b4f88;
+      height: 50%;
+      padding-left: 50px;
+    }
+
+    #top{
+      margin-left: 50px;
+    }
+
+
+    .headings{
+    font: 16px Arial, Helvetica, sans-serif;
+    color: maroon;
+    font-weight: bold;
+    text-transform: none;
+    text-decoration: none;
+    margin-top: 13mm;
+    }
+
+    #tbr{
+      margin-left: 40mm;
+      margin-top: 10mm;
+    }
+
+
+      #headers1{
+        background-color:darkblue;
+        color: white;
+        font-family: 'Baloo Bhaijaan', sans-serif;
+
+      }
+
+      #headers2{
+        background-color:darkred;
+        color: white;
+        font-family: 'Baloo Bhaijaan', sans-serif;
+      }
+
+      #headers3{
+        background-color:darkgreen;
+        color: white;
+        font-family: 'Baloo Bhaijaan', sans-serif;
+      }
+
+      #headers4{
+        background-color:DarkGoldenRod;
+        color: white;
+        font-family: 'Baloo Bhaijaan', sans-serif;
+      }
+
+      #Information1{
+        background-color:royalblue;
+        color: white;
+        font-family: 'Baloo Bhaijaan', sans-serif;
+        width: 50px;
+      }
+
+      #Information2{
+        background-color:red;
+        color: white;
+        font-family: 'Baloo Bhaijaan', sans-serif;
+        width: 80px;
+      }
+
+      #Information3{
+        background-color:forestgreen;
+        color: white;
+        font-family: 'Baloo Bhaijaan', sans-serif;
+        width: 80px;
+      }
+
+      #Information4{
+        background-color:GoldenRod;
+        color: white;
+        font-family: 'Baloo Bhaijaan', sans-serif;
+        width: 80px;
+      }
+      /*End of style*/
+
+
+            /*Styling for foorter and the images*/
+          footer {
+            background-position: bottom;
+            background-color: black;
+            width: 1170px;
+            height: 100px;
+            float: bottom;
+            clear: both;
+            padding-bottom: 70px;
+          }
+
+          #paratext {
+            margin-left: 290mm;
+            margin-top: -170px;
+            color: white;
+            font-family: 'Baloo Bhaijaan', cursive;
+          }
+
+          .imgFooter{
+            margin-left:200px;
+            margin-top: -100px;
+            padding: 5%;
+          }
+
+          #rig{
+            margin-left: 13%;
+          }
+
+          .inf{
+            color: white;
+            font-size: 20px;
+            margin-left: 6%;
+            width: 80%;
+            text-align: center;
+
+          }
+
+          .contact{
+            margin-top: 5%;
+            margin-left: 4%;
+          }
+
+          #sabclogo{
+            margin-left: 83%;
+          }
+            /*End of styling for footer*/
+    </style>
+  </head>
+  <body>
+
+
+        <div class="head">
+          <img id="top" src="https://tpc.googlesyndication.com/simgad/7655972466567889890" alt=""width="85%">
+
+          <div id="g">
+            <input type="text" placeholder="Custom Search" > <input type="submit" value="Go">
+            <div id="radio">
+              <input type="radio" name="gender" value="This site">This site
+              <input type="radio" name="gender" value="SABC">SABC
+              <input type="radio" name="gender" value="Web">Web
+            </div>
+          </div>
+              <nav id="navbar">
+                <img src="http://www.sabc.co.za/wps/wcm/connect/44857680438b6fdcb570bd686aebf4e1/sabclogo_full-white.png?MOD=AJPERES&CACHEID=44857680438b6fdcb570bd686aebf4e1" alt="">
+                <ul>
+                  <li><a href="RenewCSS.html">Home</a></li>
+                  <li><a href="AboutUs.html">About</a></li>
+                  <li><a href="News.html">News</a></li>
+                  <li><a href="Cont.html">Contact</a></li>
+                </ul>
+                 </nav>
+               </div>
+
+               <div class="right">
+               <img src="https://tpc.googlesyndication.com/simgad/5468005659936238899"alt=""height="300" width="350"></a>
+                 <br>
+                 </div>
+
+
+                 <div class="hea">
+                   <h1 id="head3">End of a chip boom? Memory chip price drop spooks investors</h1></a>
+                   <img id="rama" src="C:\Users\Academy2\Desktop\Melissa Meyers CSS\SABC CSS Renew\Pictures\2012-12-06_329b4f804db5b66693e1d70380ff593a_computerR.jpg" alt=""><p id="p1">After a blistering year-and-a-half long surge, a sudden drop in some memory prices, followed by Samsung Electronics Co’s disappointing profit estimate, is causing jitters among investors who had bet the chip boom would last at least another year.
+
+Amid news that the market has started losing some steam – prices of high-end flash memory chips, which are widely used in smartphones, dropped nearly 5 percent in the fourth quarter – some analysts now expect the industry’s growth rate will fall by more than half this year to 30 percent.</p>
+
+                 </div>
+
+
+    <h2 id="h2">South Africa</h2>
+    <h5 class="head2">12 dead as Indian truck rams rickshaw</h5></a>
+    <img src="C:\Users\Academy2\Desktop\Melissa Meyers CSS\SABC CSS Renew\Pictures\indiaAFP.jpg" alt=""width="150px" height="100mm">
+
+    <p class="headings">World</p>
+    <h5 class="head2">Liberia’s ruling party drops Sirleaf after Weah poll win</h5></a>
+    <img src="C:\Users\Academy2\Desktop\Melissa Meyers CSS\SABC CSS Renew\Pictures\President-Ellen-Johnson-SirleafR.jpg" alt=""width="150px" height="100mm">
+
+    <p class="headings">Business</p>
+    <h5 class="head2">LVMH watch, jewellery sales up more than 10 pct in 2017 – Hublot CEO</h5></a>
+    <img src="C:\Users\Academy2\Desktop\Melissa Meyers CSS\SABC CSS Renew\Pictures\yunus-carrim.jpg" alt=""width="150px" height="100mm">
+
+    <p class="headings">Lifestyle</p>
+    <h5 class="head2">Arrows beat SuperSport 1-0</h5></a>
+    <img src="C:\Users\Academy2\Desktop\Melissa Meyers CSS\SABC CSS Renew\Pictures\Soccer-1.jpg" alt=""width="150px" height="100mm">
+
+
+    <p class="headings">Politics</p>
+    <h5 class="head2">DA dealt with De Lille matter with full transparency: Maimane</h5></a>
+    <img src="C:\Users\Academy2\Desktop\Melissa Meyers CSS\SABC CSS Renew\Pictures\maimane-1.jpg" alt=""width="150px" height="100mm">
+
+    <table id="tbr">
+    <tr>
+    <th id="headers1">SABC Editorial Policy</th>
+    <th id="headers2">Albert Luthuli 50 years later</th>
+    <th id="headers3">WEF on Africa 2017</th>
+    <th id="headers4">Womens Day 2017</th>
+    </tr>
+
+    <tr>
+    <td id="Information1">The South African Broadcasting Corporation (SABC) is embarking on a review process of its 2004 Editorial Policies, which were developed through a consultation process with the public at large.</td>
+    <td id="Information2">50th death anniversary of Chief Albert Luthuli</td>
+    <td id="Information3">The World Economic Forum (WEF) on Africa takes place in Durban, South Africa on 3 - 5 May 2017. Get the latest news about the event.</td>
+    <td id="Information4">This year marks 61 years since about 20 000 women from all walks of life marched to the Union Buildings to protest against the unjust pass laws that restricted their freedom of movement.</td>
+    </tr>
+
+    <tr>
+    <td><img src="C:\Users\Academy2\Desktop\My Projects\CSS\Second Module Project\Project\ReNew CSS\ReNew CSS\Pictures\tambo.jpg" alt="img"width="" height="120"></td>
+    <td><img src="C:\Users\Academy2\Desktop\My Projects\CSS\Second Module Project\Project\ReNew CSS\ReNew CSS\Pictures\albert.jpg" alt="sabc" width="" height="120"></td>
+    <td><img src="C:\Users\Academy2\Desktop\My Projects\CSS\Second Module Project\Project\ReNew CSS\ReNew CSS\Pictures\Pic.jpg" alt="sabc" width="" height="120"></td>
+    <td><img src="C:\Users\Academy2\Desktop\My Projects\CSS\Second Module Project\Project\ReNew CSS\ReNew CSS\Pictures\sabc.jpg" alt="sabc" width="" height="120"></td>
+    </tr>
+    </table>
+
+    <br>
+    <br>
+    <br>
+
+  <footer>
+
+    </div>
+
+    <div class="inf">
+      <a class="inf" href="#">About the SABC Advertise</a>
+      <a class="inf" href="#">Contact Us Disclaimer</a>
+      <a class="inf" href="#">Tender Press Release</a>
+      <a class="inf" href="#">Jobs Site Map</a>
+    </div>
+
+  <div class="contact">
+
+  <img id="sabclogo" src="C:\Users\Academy2\Desktop\My Projects\CSS\Second Module Project\Project\ReNew CSS\ReNew CSS\Pictures\sabclogo.png" alt="">
+  </div>
+  </footer>
+
+
+  </body>
+</html>
